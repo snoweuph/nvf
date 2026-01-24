@@ -73,6 +73,7 @@ isMaximal: {
       };
       toml.enable = isMaximal;
       xml.enable = isMaximal;
+      docker.enable = isMaximal;
 
       # Language modules that are not as common.
       assembly.enable = false;
