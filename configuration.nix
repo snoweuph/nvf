@@ -60,6 +60,7 @@ isMaximal: {
       clang.enable = isMaximal;
       cmake.enable = isMaximal;
       css.enable = isMaximal;
+      scss.enable = isMaximal;
       html.enable = isMaximal;
       json.enable = isMaximal;
       sql.enable = isMaximal;
