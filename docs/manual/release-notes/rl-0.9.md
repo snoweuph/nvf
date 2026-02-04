@@ -57,6 +57,9 @@
 
 - Added `json5` into `languages.json`. Some options where renamed.
 
+- Split SCSS from `languages.css` into `languages.scss` and add extra tools for
+  SCSS/SASS.
+
 ## Changelog {#sec-release-0-9-changelog}
 
 [midischwarz12](https://github.com/midischwarz12):
