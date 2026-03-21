@@ -393,6 +393,22 @@
       "url": "https://github.com/Saecki/crates.nvim/archive/ac9fa498a9edb96dc3056724ff69d5f40b898453.tar.gz",
       "hash": "sha256-jfmST/S9ymwgQ99PTCOlJkk5zaxE5HiDV16TmTISDII="
     },
+    "crazy-coverage": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "mr-u0b0dy",
+        "repo": "crazy-coverage.nvim"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v2.1.0",
+      "revision": "1c9223bdc6f2966be0e5d4dc73c9404003eca5b4",
+      "url": "https://api.github.com/repos/mr-u0b0dy/crazy-coverage.nvim/tarball/refs/tags/v2.1.0",
+      "hash": "sha256-D9hbxvjTbpLv2fXwtKbzFiSgkUj3uNd3YowZ/GrEQjM="
+    },
     "csharpls-extended-lsp-nvim": {
       "type": "Git",
       "repository": {
@@ -685,19 +701,6 @@
       "url": "https://api.github.com/repos/olexsmir/gopher.nvim/tarball/refs/tags/v0.6.0",
       "hash": "sha256-7aDjMFMCiqub/zCDJIWUIX9Zc6+vyPQOczuOFdc/6S0="
     },
-    "grug-far-nvim": {
-      "type": "Git",
-      "repository": {
-        "type": "GitHub",
-        "owner": "MagicDuck",
-        "repo": "grug-far.nvim"
-      },
-      "branch": "main",
-      "submodules": false,
-      "revision": "275dbedc96e61a6b8d1dfb28ba51586ddd233dcf",
-      "url": "https://github.com/MagicDuck/grug-far.nvim/archive/275dbedc96e61a6b8d1dfb28ba51586ddd233dcf.tar.gz",
-      "hash": "sha256-qn1BTNCX0Sm158Lv5JfHThqlJX9ualCIlc+RCjWa+t8="
-    },
     "gruber-darker": {
       "type": "Git",
       "repository": {
@@ -710,6 +713,19 @@
       "revision": "aba065c3a79b58cc3863d5c9db319255abd1258a",
       "url": "https://github.com/blazkowolf/gruber-darker.nvim/archive/aba065c3a79b58cc3863d5c9db319255abd1258a.tar.gz",
       "hash": "sha256-4xB/MRTDccA5gTKe6DrN+bNfDx6fzjuIGOLdkuxg8c0="
+    },
+    "grug-far-nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "MagicDuck",
+        "repo": "grug-far.nvim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "275dbedc96e61a6b8d1dfb28ba51586ddd233dcf",
+      "url": "https://github.com/MagicDuck/grug-far.nvim/archive/275dbedc96e61a6b8d1dfb28ba51586ddd233dcf.tar.gz",
+      "hash": "sha256-qn1BTNCX0Sm158Lv5JfHThqlJX9ualCIlc+RCjWa+t8="
     },
     "gruvbox": {
       "type": "Git",

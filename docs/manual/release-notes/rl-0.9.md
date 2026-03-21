@@ -269,6 +269,9 @@
 - Added neovim theme `gruber-darker`
   <https://github.com/blazkowolf/gruber-darker.nvim>.
 
+- Added coverage support (`vim.utility.crazy-coverage`) via
+  [`crazy-coverage.nvim`](https://github.com/mr-u0b0dy/crazy-coverage.nvim).
+
 [vagahbond](https://github.com/vagahbond): [codewindow.nvim]:
 https://github.com/gorbit99/codewindow.nvim
 
