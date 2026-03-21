@@ -25,6 +25,7 @@ in {
     ./html.nix
     ./tera.nix
     ./twig.nix
+    ./liquid.nix
     ./haskell.nix
     ./java.nix
     ./jinja.nix

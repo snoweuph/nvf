@@ -225,6 +225,9 @@
 - Added [tera](https://keats.github.io/tera/) language support (syntax
   highlighting only).
 
+- Added [liquid](https://keats.github.io/tera/) language support (syntax
+  highlighting only) via `languages.liquid`.
+
 - Added Debugging support to `languages.odin` with
   [nvim-dap-odin](https://github.com/NANDquark/nvim-dap-odin).
 

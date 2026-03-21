@@ -100,6 +100,7 @@ isMaximal: {
       jinja.enable = false;
       tailwind.enable = false;
       svelte.enable = false;
+      liquid.enable = false;
       tera.enable = false;
       twig.enable = false;
       fluent.enable = false;
