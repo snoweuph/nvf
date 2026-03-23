@@ -105,6 +105,7 @@ isMaximal: {
       jinja.enable = false;
       tailwind.enable = false;
       svelte.enable = false;
+      vue.enable = false;
       tera.enable = false;
       twig.enable = false;
       gettext.enable = false;
