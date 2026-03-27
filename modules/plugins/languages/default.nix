@@ -47,7 +47,7 @@ in {
     ./tailwind.nix
     ./terraform.nix
     ./toml.nix
-    ./ts.nix
+    ./typescript.nix
     ./typst.nix
     ./zig.nix
     ./csharp.nix

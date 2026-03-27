@@ -8,14 +8,14 @@
   inherit (lib.options) mkEnableOption mkOption literalExpression;
   inherit (lib.modules) mkIf mkMerge;
   inherit (lib.meta) getExe;
-  inherit (lib.types) enum package bool;
+  inherit (lib.types) enum bool listOf;
   inherit (lib.generators) mkLuaInline;
   inherit (lib.nvim.attrsets) mapListToAttrs;
   inherit (lib.nvim.lua) toLuaObject;
-  inherit (lib.nvim.types) mkGrammarOption diagnostics mkPluginSetupOption deprecatedSingleOrListOf;
+  inherit (lib.nvim.types) mkGrammarOption diagnostics mkPluginSetupOption;
   inherit (lib.nvim.dag) entryAnywhere entryBefore;
 
-  cfg = config.vim.languages.ts;
+  cfg = config.vim.languages.typescript;
 
   defaultServers = ["ts_ls"];
   servers = let
@@ -239,8 +239,8 @@
     };
   };
 in {
-  _file = ./ts.nix;
-  options.vim.languages.ts = {
+  _file = ./typescript.nix;
+  options.vim.languages.typescript = {
     enable = mkEnableOption "Typescript/Javascript language support";
 
     treesitter = {
@@ -264,7 +264,7 @@ in {
         };
 
       servers = mkOption {
-        type = deprecatedSingleOrListOf "vim.language.ts.lsp.servers" (enum (attrNames servers));
+        type = listOf (enum (attrNames servers));
         default = defaultServers;
         description = "Typescript/Javascript LSP server to use";
       };
@@ -280,7 +280,7 @@ in {
 
       type = mkOption {
         description = "Typescript/Javascript formatter to use";
-        type = deprecatedSingleOrListOf "vim.language.ts.format.type" (enum (attrNames formats));
+        type = listOf (enum (attrNames formats));
         default = defaultFormat;
       };
     };
@@ -390,7 +390,7 @@ in {
           message = ''
             As of a recent lspconfig update, the `tsserver` configuration has been renamed
             to `ts_ls` to match upstream behaviour of `lspconfig`, and the name `tsserver`
-            is no longer considered valid by nvf. Please set `vim.languages.ts.lsp.server`
+            is no longer considered valid by nvf. Please set `vim.languages.typescript.lsp.server`
             to `"ts_ls"` instead of to `${cfg.lsp.server}`
 
             Please see <https://github.com/neovim/nvim-lspconfig/pull/3232> for more details

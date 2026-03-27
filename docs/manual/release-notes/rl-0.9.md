@@ -57,6 +57,8 @@
 
 - Added `json5` into `languages.json`. Some options where renamed.
 
+- Renamed `languages.ts` to `languages.typescript`.
+
 ## Changelog {#sec-release-0-9-changelog}
 
 [midischwarz12](https://github.com/midischwarz12):

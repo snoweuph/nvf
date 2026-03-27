@@ -247,8 +247,8 @@ in {
 
       (mkRemovedLspPackage "terraform")
 
-      (mkRenamedLspServer "ts")
-      (mkRemovedLspPackage "ts")
+      (mkRenamedLspServer "typescript")
+      (mkRemovedLspPackage "typescript")
 
       (mkRenamedLspServer "typst")
       (mkRemovedLspPackage "typst")
