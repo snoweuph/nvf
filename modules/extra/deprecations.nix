@@ -344,5 +344,10 @@ in {
     [
       (mkRenamedOptionModule ["vim" "treesitter" "foldByDefault"] ["vim" "options" "foldenable"])
     ]
+
+    # 2026-13-04
+    [
+      (mkRenamedOptionModule ["vim" "lsp" "harper-ls" "enable"] ["vim" "lsp" "presets" "harper" "enable"])
+    ]
   ];
 }
