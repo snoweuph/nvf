@@ -39,6 +39,7 @@
     ./nushell.nix
     ./ocaml-lsp.nix
     ./ols.nix
+    ./omnisharp.nix
     ./openscad-lsp.nix
     ./phan.nix
     ./phpactor.nix
