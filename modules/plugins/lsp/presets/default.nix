@@ -8,6 +8,7 @@
     ./ccls.nix
     ./clangd.nix
     ./clojure-lsp.nix
+    ./csharp_ls.nix
     ./cue.nix
     ./dart.nix
     ./deno.nix
