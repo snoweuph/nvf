@@ -2499,9 +2499,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "24f7c91ee5e09c63104deaab68f932620f25c24a",
-      "url": "https://github.com/seblyng/roslyn.nvim/archive/24f7c91ee5e09c63104deaab68f932620f25c24a.tar.gz",
-      "hash": "sha256-a/Slmkrz/4P/rfRhPa1W5kGV7joQNTN0Un7bbncCnk0="
+      "revision": "f2ec6ee6384c3b611ddc817b9e78b20cd0334bbb",
+      "url": "https://github.com/seblyng/roslyn.nvim/archive/f2ec6ee6384c3b611ddc817b9e78b20cd0334bbb.tar.gz",
+      "hash": "sha256-0Wpic372trtMO7FUJtcHTcaG4fEGhY7WS6P0+eeosiA="
     },
     "rtp-nvim": {
       "type": "Git",

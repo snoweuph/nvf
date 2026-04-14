@@ -11,6 +11,7 @@
     ./images
     ./grug-far-nvim
     ./leetcode-nvim
+    ./mason
     ./mkdir
     ./motion
     ./multicursors
