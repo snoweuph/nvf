@@ -54,6 +54,7 @@
     ./ruff.nix
     ./rumdl.nix
     ./solargraph.nix
+    ./some-sass-language-server.nix
     ./sqls.nix
     ./superhtml.nix
     ./svelte-language-server.nix

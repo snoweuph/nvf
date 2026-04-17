@@ -313,6 +313,8 @@
 - Added {option}`vim.lsp.presets.vue-language-server.enable` for Vue Template
   support.
 
+- Added {option}`vim.lsp.presets.some-sass-language-server.enable`.
+
 - Fix `vim.lsp.presets.vala-language-server` to be wrapped correctly with
   `uncrustify`.
 
