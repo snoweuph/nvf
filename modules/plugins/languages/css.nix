@@ -91,7 +91,6 @@ in {
           filetypes = [
             "css"
             # TODO: split in their own modules
-            "scss"
             "less"
           ];
         });

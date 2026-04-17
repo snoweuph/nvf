@@ -108,6 +108,10 @@
   `languages.go.treesitter.gotmplPackage` to
   {option}`vim.languages.go.treesitter.gotmpl.package`
 
+- Split SCSS from `languages.css` into `languages.scss` and add extra tools for
+  SCSS/SASS. This also changes the default LSP to `some-sass-language-server`
+  for SCSS/SASS.
+
 [CaueAnjos](https://github.com/caueanjos)
 
 - Renamed `roslyn_ls` to `roslyn-ls`
