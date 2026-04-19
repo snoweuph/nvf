@@ -305,13 +305,15 @@
   more flexibility in nvf and reuse of LSPs across languages. Dropped
   `deprecatedSingleOrListOf` in favor of `listOf` for the affected LSP options.
 
+- Added {option}`vim.lsp.presets.docker-language-server.enable` for Docker
+  support.
+
 - Added {option}`vim.lsp.presets.angular-language-server.enable` for Angular
   Template support.
 
 - Added {option}`vim.lsp.presets.vtsls.enable` for Vue TypeScript support.
 
 - Added {option}`vim.lsp.presets.vue-language-server.enable` for Vue Template
-  support.
 
 - Fix `vim.lsp.presets.vala-language-server` to be wrapped correctly with
   `uncrustify`.
