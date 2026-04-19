@@ -66,6 +66,7 @@ in {
     ./fluent.nix
     ./openscad.nix
     ./jq.nix
+    ./docker.nix
 
     # This is now a hard deprecation.
     (mkRenamedOptionModule ["vim" "languages" "enableLSP"] ["vim" "lsp" "enable"])
