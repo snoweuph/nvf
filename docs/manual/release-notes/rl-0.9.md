@@ -322,6 +322,8 @@
 - Fix {option}`vim.utility.nvim-biscuits.enable` by upgrading, to fix
   tree-sitter incompatibilities.
 
+- Fix image.nvim processor configuration and cleanup module.
+
 - Added [Selenen](https://github.com/kampfkarren/selene) for more diagnostics in
   `languages.lua`.
 
