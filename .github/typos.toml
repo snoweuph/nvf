@@ -12,5 +12,6 @@ default.extend-ignore-words-re = [
   "Emac",
   "tese", # for glsl shaders
   "Caue",
+  "bse", # ./modules/plugins/tabline/nvim-bufferline/nvim-bufferline.nix:20:78: "bse" should be "base".
 ]
 
