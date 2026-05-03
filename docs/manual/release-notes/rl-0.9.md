@@ -108,6 +108,10 @@
   `languages.go.treesitter.gotmplPackage` to
   {option}`vim.languages.go.treesitter.gotmpl.package`
 
+- Split SCSS from `languages.css` into `languages.scss` and add extra tools for
+  SCSS/SASS. This also changes the default LSP to `some-sass-language-server`
+  for SCSS/SASS.
+
 [CaueAnjos](https://github.com/caueanjos)
 
 - Renamed `roslyn_ls` to `roslyn-ls`
@@ -312,6 +316,8 @@
 
 - Added {option}`vim.lsp.presets.vue-language-server.enable` for Vue Template
   support.
+
+- Added {option}`vim.lsp.presets.some-sass-language-server.enable`.
 
 - Fix `vim.lsp.presets.vala-language-server` to be wrapped correctly with
   `uncrustify`.
