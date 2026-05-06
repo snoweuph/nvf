@@ -21,7 +21,7 @@ in {
       cmd = [(getExe pkgs.bash-language-server) "start"];
       root_markers = [".git"];
       settings = {
-        basheIde = {
+        bashIde = {
           globPattern = mkLuaInline "vim.env.GLOB_PATTERN or '*@(.sh|.inc|.bash|.command)'";
         };
       };
