@@ -80,6 +80,7 @@ isMaximal: {
       xml.enable = isMaximal;
       tex.enable = isMaximal;
       docker.enable = isMaximal;
+      env.enable = isMaximal;
 
       # Language modules that are not as common.
       openscad.enable = false;
