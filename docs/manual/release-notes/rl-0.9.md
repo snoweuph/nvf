@@ -388,6 +388,8 @@
 
 - Fix `languages.ts` registration of formatters.
 
+- Added `asmfmt` and `nasmfmt` formatters to `languages.asm`.
+
 - Added `biome-check` and `biome-organize-imports` formatters to `languages.ts`.
 
 - Added [`biomejs`](https://biomejs.dev/) as extra diagnostics provider to
