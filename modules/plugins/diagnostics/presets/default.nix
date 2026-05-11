@@ -1,0 +1,27 @@
+{
+  imports = [
+    ./biomejs.nix
+    ./checkmake.nix
+    ./deadnix.nix
+    ./djlint.nix
+    ./dotenv-linter.nix
+    ./eslint_d.nix
+    ./golangci-lint.nix
+    ./hadolint.nix
+    ./htmlhint.nix
+    ./ktlint.nix
+    ./luacheck.nix
+    ./markdownlint-cli2.nix
+    ./mypy.nix
+    ./rubocop.nix
+    ./rumdl.nix
+    ./selene.nix
+    ./shellcheck.nix
+    ./sqlfluff.nix
+    ./sqruff.nix
+    ./statix.nix
+    ./stylelint.nix
+    ./taplo.nix
+    ./tombi.nix
+  ];
+}
