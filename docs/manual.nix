@@ -4,6 +4,7 @@
   stdenvNoCC,
   optionsJSON,
   jaq,
+  gnused,
 } @ args: let
   manual-release = args.release or "unstable";
 in
@@ -18,6 +19,7 @@ in
         doCheck = false;
       })
       jaq
+      gnused
     ];
 
     patchPhase = ''
@@ -37,6 +39,27 @@ in
     '';
 
     buildPhase = ''
+      mkdir -p queries/nix
+      # sed -n -f /dev/stdin ${../modules/plugins/languages/nix.nix} <<'EOF' > ./queries/nix/injections.scm
+      # /type = "injections"/,/^[[:space:]]*};/ {
+      #   /query = '''/,/^[[:space:]]*''';/ {
+      #     /query = '''/d
+      #     /^[[:space:]]*''';/d
+      #     p
+      #   }
+      # }
+      # EOF
+
+
+      cat > ./queries/nix/injections.scm <<'EOF'
+      ((apply_expression
+        argument: (indented_string_expression
+          (string_fragment) @injection.content))
+      (#set! injection.language "lua")
+      (#set! injection.combined))
+      EOF
+
+
       # Generate the final manual from a set of parameters. This uses
       # feel-co/ndg to render the web manual.
       ndg --config-file ${./ndg.toml} html \
