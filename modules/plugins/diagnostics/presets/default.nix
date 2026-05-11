@@ -2,6 +2,7 @@
   imports = [
     ./biomejs.nix
     ./checkmake.nix
+    ./cpplint.nix
     ./deadnix.nix
     ./djlint.nix
     ./dotenv-linter.nix

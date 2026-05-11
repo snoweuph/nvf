@@ -45,6 +45,8 @@
       '';
     };
   };
+  defaultDiagnosticsProvider = ["cpplint"];
+  diagnosticsProviders = ["cpplint"];
 in {
   options.vim.languages.clang = {
     enable = mkEnableOption "C/C++ language support";
@@ -102,6 +104,21 @@ in {
         default = debuggers.${cfg.dap.debugger}.package;
       };
     };
+
+    extraDiagnostics = {
+      enable =
+        mkEnableOption "extra C/C++ diagnostics"
+        // {
+          default = config.vim.languages.enableExtraDiagnostics;
+          defaultText = literalExpression "config.vim.languages.enableExtraDiagnostics";
+        };
+
+      types = mkOption {
+        type = listOf (enum diagnosticsProviders);
+        default = defaultDiagnosticsProvider;
+        description = "extra C/C++ diagnostics providers";
+      };
+    };
   };
 
   config = mkIf cfg.enable (mkMerge [
@@ -126,6 +143,19 @@ in {
     (mkIf cfg.dap.enable {
       vim.debugger.nvim-dap.enable = true;
       vim.debugger.nvim-dap.sources.clang-debugger = debuggers.${cfg.dap.debugger}.dapConfig;
+    })
+
+    (mkIf cfg.extraDiagnostics.enable {
+      vim.diagnostics = {
+        presets = genAttrs cfg.extraDiagnostics.types (_: {enable = true;});
+        nvim-lint = {
+          enable = true;
+          linters_by_ft = {
+            c = cfg.extraDiagnostics.types;
+            cpp = cfg.extraDiagnostics.types;
+          };
+        };
+      };
     })
   ]);
 }
