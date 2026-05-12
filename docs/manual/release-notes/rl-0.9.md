@@ -475,6 +475,7 @@ https://github.com/gorbit99/codewindow.nvim
 - Add CMake support with [neocmakelsp].
 - Add Arduino support with [arduino-language-server].
 - Add GLSL support with [glsl_analyzer].
+- Update fidget-nvim setupOpts and fix NvimTree issue.
 
 [itscrystalline](https://github.com/itscrystalline):
 
