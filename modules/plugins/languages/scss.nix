@@ -16,7 +16,7 @@
   cfg = config.vim.languages.scss;
 
   defaultServer = ["some-sass-language-server"];
-  servers = ["some-sass-language-server" "vscode-css-language-server"];
+  servers = ["some-sass-language-server" "vscode-css-language-server" "emmet-ls"];
 
   defaultFormat = ["prettier"];
   formats = {
