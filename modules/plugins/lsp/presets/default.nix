@@ -13,6 +13,7 @@
     ./cue.nix
     ./dart.nix
     ./deno.nix
+    ./docker-language-server.nix
     ./elixir-ls.nix
     ./elm-language-server.nix
     ./emmet-ls.nix

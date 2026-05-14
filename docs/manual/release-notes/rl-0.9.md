@@ -315,13 +315,15 @@
   more flexibility in nvf and reuse of LSPs across languages. Dropped
   `deprecatedSingleOrListOf` in favor of `listOf` for the affected LSP options.
 
+- Added {option}`vim.lsp.presets.docker-language-server.enable` for Docker
+  support.
+
 - Added {option}`vim.lsp.presets.angular-language-server.enable` for Angular
   Template support.
 
 - Added {option}`vim.lsp.presets.vtsls.enable` for Vue TypeScript support.
 
 - Added {option}`vim.lsp.presets.vue-language-server.enable` for Vue Template
-  support.
 
 - Added {option}`vim.lsp.presets.some-sass-language-server.enable`.
 
@@ -338,6 +340,10 @@
 
 - Added [Selenen](https://github.com/kampfkarren/selene) for more diagnostics in
   `languages.lua`.
+
+- Added `languages.docker` for Docker and Docker-Compose support. Thanks to
+  [poseidon-rises](https://github.com/poseidon-rises) for creating most of it in
+  [!1104](https://github.com/NotAShelf/nvf/pull/1104).
 
 - Added [`mdformat`](https://mdformat.rtfd.io/) support to `languages.markdown`
   with the extensions for [GFM](https://github.github.com/gfm/),
