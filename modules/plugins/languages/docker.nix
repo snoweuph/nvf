@@ -12,7 +12,6 @@
   inherit (lib.types) enum listOf;
   inherit (lib.nvim.types) mkGrammarOption diagnostics;
   inherit (lib.nvim.attrsets) mapListToAttrs;
-  inherit (lib.generators) mkLuaInline;
 
   cfg = config.vim.languages.docker;
 
@@ -109,9 +108,7 @@ in {
             "docker-compose.yml"
             "docker-compose.yaml"
           ];
-          callback = mkLuaInline ''
-            vim.bo.filetype = "dockercompose"
-          '';
+          command = "set filetype=dockercompose";
         }
       ];
     }
