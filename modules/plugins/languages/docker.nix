@@ -95,7 +95,7 @@ in {
     };
   };
 
-  config = mkMerge [
+  config = mkIf cfg.enable (mkMerge [
     {
       vim.autocmds = [
         # Without this the LSP doesn't understand them correctly
@@ -162,5 +162,5 @@ in {
         );
       };
     })
-  ];
+  ]);
 }
