@@ -16,6 +16,7 @@ in {
     ./scss.nix
     ./elixir.nix
     ./elm.nix
+    ./fish.nix
     ./fsharp.nix
     ./gleam.nix
     ./glsl.nix
