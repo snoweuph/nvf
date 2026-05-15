@@ -117,7 +117,7 @@ isMaximal: {
 
       # Nim LSP is broken on Darwin and therefore
       # should be disabled by default. Users may still enable
-      # `vim.languages.vim` to enable it, this does not restrict
+      # `vim.languages.nim` to enable it, this does not restrict
       # that.
       # See: <https://github.com/PMunch/nimlsp/issues/178#issue-2128106096>
       nim.enable = false;
