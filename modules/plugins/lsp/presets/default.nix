@@ -17,6 +17,7 @@
     ./elixir-ls.nix
     ./elm-language-server.nix
     ./emmet-ls.nix
+    ./fish-lsp.nix
     ./fsautocomplete.nix
     ./gleam.nix
     ./glsl_analyzer.nix

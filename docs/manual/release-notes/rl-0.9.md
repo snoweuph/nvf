@@ -481,11 +481,17 @@ https://github.com/gorbit99/codewindow.nvim
 [neocmakelsp]: https://github.com/neocmakelsp/neocmakelsp
 [arduino-language-server]: https://github.com/arduino/arduino-language-server
 [glsl_analyzer]: https://github.com/nolanderc/glsl_analyzer
+[fish-lsp]: https://www.fish-lsp.dev/
+[fish_indent]: https://fishshell.com/docs/current/cmds/fish_indent.html
 
 - Add CMake support with [neocmakelsp].
 - Add Arduino support with [arduino-language-server].
 - Add GLSL support with [glsl_analyzer].
 - Update fidget-nvim setupOpts and fix NvimTree issue.
+- Add Fish support via {option}`vim.languages.fish.enable` using [fish-lsp] and
+  [fish_indent]. Most of the work done by
+  [poseidon-rises](https://github.com/poseidon-rises) in
+  [!1107](https://github.com/NotAShelf/nvf/pull/1107).
 
 [itscrystalline](https://github.com/itscrystalline):
 
