@@ -113,6 +113,7 @@ isMaximal: {
       gettext.enable = false;
       fluent.enable = false;
       jq.enable = false;
+      fish.enable = false;
 
       # Nim LSP is broken on Darwin and therefore
       # should be disabled by default. Users may still enable
