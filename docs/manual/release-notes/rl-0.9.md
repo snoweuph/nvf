@@ -407,6 +407,8 @@
 - Added [`biomejs`](https://biomejs.dev/) as extra diagnostics provider to
   `languages.ts`.
 
+- Added `languages.standard-ml`.
+
 - Added `languages.vue`.
 
 - Add `languages.fluent` using the official plugin. This only provides
