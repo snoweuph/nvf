@@ -48,6 +48,7 @@ in {
     ./scala.nix
     ./sql.nix
     ./svelte.nix
+    ./vhdl.nix
     ./vue.nix
     ./terraform.nix
     ./toml.nix
