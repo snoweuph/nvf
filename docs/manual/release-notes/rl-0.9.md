@@ -495,6 +495,12 @@ https://github.com/gorbit99/codewindow.nvim
   [poseidon-rises](https://github.com/poseidon-rises) in
   [!1107](https://github.com/NotAShelf/nvf/pull/1107).
 
+[emo-mruczek](https://emo-mruczek.pet):
+
+[vhdl-ls]: https://github.com/VHDL-LS/rust_hdl
+
+- Add VHDL support with [vhdl-ls].
+
 [itscrystalline](https://github.com/itscrystalline):
 
 [img-clip.nvim]: https://github.com/hakonharnes/img-clip.nvim
