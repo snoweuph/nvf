@@ -35,6 +35,7 @@
     ./lua-language-server.nix
     ./markdown-oxide.nix
     ./marksman.nix
+    ./millet.nix
     ./neocmakelsp.nix
     ./nil.nix
     ./nimlsp.nix

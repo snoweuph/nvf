@@ -291,6 +291,10 @@
 
 [Snoweuph](https://github.com/snoweuph)
 
+- Allow the usage of `pks.tree-sitter-grammars` in
+  {option}`vim.treesitter.grammars` and language module tree-sitter package
+  options created via `mkGrammarOption`.
+
 - Add `emmet-ls` to the supported LSPs for all languages it supports.
 
 - Added {option}`vim.treesitter.queries` to support adding custom queries.
@@ -402,6 +406,8 @@
 
 - Added [`biomejs`](https://biomejs.dev/) as extra diagnostics provider to
   `languages.ts`.
+
+- Added `languages.standard-ml`.
 
 - Added `languages.vue`.
 

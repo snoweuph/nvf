@@ -14,6 +14,7 @@ in {
     ./clojure.nix
     ./cmake.nix
     ./css.nix
+    ./standard-ml.nix
     ./scss.nix
     ./elixir.nix
     ./elm.nix
